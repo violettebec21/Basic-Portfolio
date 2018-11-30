@@ -6,7 +6,7 @@ html, body {
 	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
 	background-color: #efefef;
-	background: #efefef url("/assets/images/wild_flowers.png");
+	background: #efefef url("../images/wild_flowers.png");
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -79,12 +79,11 @@ header {
 }
 
 #content {
-	!important
+	display: inline-block;
 	width: auto;
 	position: relative;
 	clear: both;
-	margin: 0 auto 6em auto;
-	display: inline-block;
+	margin: 0 auto 6em auto; 
 	padding: 10px;
 	font: #777777;
 	background-color: #ffffff;
@@ -185,6 +184,7 @@ img.profile {
 }
 
 .item-name {
+	clear: both;
 	position: relative;
 	top: -100px;
 	text-align: center;
